@@ -1,0 +1,40 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Generated media and local outputs
+out/
+clips/
+approved_clips/
+mets-carousel-output/
+facebook-example-runs/
+wordpress-drafts/
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Local app/browser artifacts
+.playwright/
+.cache/
+downloads/
+
