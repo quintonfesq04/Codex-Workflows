@@ -63,6 +63,35 @@ The portable renderer can be run with:
 python3 scripts/polymarket-carousel.py templates/polymarket-carousel-brief.json
 ```
 
+## Carousel Format Library
+
+Carousel formats are separated under:
+
+```text
+references/carousel-formats/
+templates/carousel-formats/
+```
+
+Current presets:
+
+- `analytical`
+- `meme-heavy`
+- `list-ranking`
+- `trade-rumor`
+- `player-report`
+
+Use prompts like:
+
+```text
+Format: analytical. Make a Cy Young case carousel for Cristopher Sanchez.
+Format: meme-heavy. Make a panic meter carousel about Acuna.
+Format: list-ranking. Make a Ball Knowers Only carousel.
+Format: trade-rumor. Make a deadline carousel for Sandy Alcantara.
+Format: player-report. Make a franchise face carousel for Bryce Eldridge.
+```
+
+When building out a new aesthetic, send examples for one format at a time. Codex should analyze the examples and update the matching format file with approved cover, info slide, stat, gradient, meme, and logo rules.
+
 ## Setup
 
 Install Node dependencies if you plan to render compilations or run JavaScript scripts:

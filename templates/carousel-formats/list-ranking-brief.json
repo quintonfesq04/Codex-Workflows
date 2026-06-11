@@ -1,0 +1,32 @@
+{
+  "format": "list-ranking",
+  "post_folder": "Example List Carousel",
+  "team": "MLB",
+  "team_colors": ["#041E42", "#BF0D3E", "#FFFFFF"],
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["BALL", "KNOWERS", "ONLY"],
+    "gradient": "black",
+    "line_colors": ["#FFFFFF", "#BF0D3E", "#FFFFFF"]
+  },
+  "slides": [
+    {
+      "rank": 1,
+      "name": "Player Name",
+      "image": "/absolute/path/to/player-1.jpg",
+      "copy": "One short argument for this list item.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "rank": 2,
+      "name": "Player Name",
+      "image": "/absolute/path/to/player-2.jpg",
+      "copy": "One short argument for this list item.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "image": "/absolute/path/to/meme-still.png",
+    "caption": "Optional closing reaction."
+  }
+}

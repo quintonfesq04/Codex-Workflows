@@ -1,5 +1,6 @@
 {
   "post_folder": "Example Player Carousel",
+  "format": "player-report",
   "output_root": "polymarket-carousel-output",
   "mirror_to_documents": true,
   "team": "Giants",

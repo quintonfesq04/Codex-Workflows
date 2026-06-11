@@ -1,0 +1,42 @@
+{
+  "format": "analytical",
+  "post_folder": "Example Analytical Carousel",
+  "team": "Phillies",
+  "team_colors": ["#E81828", "#002D72", "#FFFFFF"],
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["ACE", "THEFT?"],
+    "gradient": "black",
+    "line_colors": ["#FFFFFF", "#E81828"]
+  },
+  "slides": [
+    {
+      "role": "context",
+      "image": "/absolute/path/to/slide-1.jpg",
+      "copy": "Why this case matters right now.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "main-proof",
+      "image": "/absolute/path/to/slide-2.jpg",
+      "copy": "The strongest stat cluster.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "support-proof",
+      "image": "/absolute/path/to/slide-3.jpg",
+      "copy": "The supporting metric or trend.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "verdict",
+      "image": "/absolute/path/to/slide-4.jpg",
+      "copy": "The final argument or debate point.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "image": "/absolute/path/to/meme-still.png",
+    "caption": "Optional reaction caption."
+  }
+}

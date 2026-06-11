@@ -1,0 +1,42 @@
+{
+  "format": "player-report",
+  "post_folder": "Example Player Report Carousel",
+  "team": "Giants",
+  "team_colors": ["#FD5A1E", "#27251F", "#FFFFFF"],
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["FRANCHISE", "FACE?"],
+    "gradient": "black",
+    "line_colors": ["#FFFFFF", "#FD5A1E"]
+  },
+  "slides": [
+    {
+      "role": "what-happened",
+      "image": "/absolute/path/to/slide-1.jpg",
+      "copy": "What happened and why the post exists now.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "production",
+      "image": "/absolute/path/to/slide-2.jpg",
+      "copy": "The current production case.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "context",
+      "image": "/absolute/path/to/slide-3.jpg",
+      "copy": "Age, role, team context, or underlying reason.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "takeaway",
+      "image": "/absolute/path/to/slide-4.jpg",
+      "copy": "Final takeaway or debate.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "image": "/absolute/path/to/meme-still.png",
+    "caption": "Optional final reaction."
+  }
+}

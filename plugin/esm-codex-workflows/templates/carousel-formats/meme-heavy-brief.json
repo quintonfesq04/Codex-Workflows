@@ -1,0 +1,36 @@
+{
+  "format": "meme-heavy",
+  "post_folder": "Example Meme Heavy Carousel",
+  "team": "Braves",
+  "team_colors": ["#CE1141", "#13274F", "#FFFFFF"],
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["ACUNA", "IS COOKED?!"],
+    "gradient": "black",
+    "line_colors": ["#FFFFFF", "#CE1141"]
+  },
+  "slides": [
+    {
+      "role": "setup",
+      "image": "/absolute/path/to/slide-1.jpg",
+      "copy": "Set up the reason fans are reacting.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "reality-check",
+      "image": "/absolute/path/to/slide-2.jpg",
+      "copy": "Ground the joke with actual context.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "debate",
+      "image": "/absolute/path/to/slide-3.jpg",
+      "copy": "Explain why the reaction could matter.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "image": "/absolute/path/to/meme-still.png",
+    "caption": "Reaction caption goes here."
+  }
+}

@@ -2,6 +2,16 @@
 
 Use this reference when a user asks for a Polymarket baseball Instagram carousel, drops a brief with team colors and slide copy, or asks for a new carousel from player/team images.
 
+## Format Preset Layer
+
+Before writing or rendering, route the brief through `references/carousel-formats/README.md`.
+
+- Use a named format when the user provides one.
+- Infer the format when the brief clearly matches analytical, meme-heavy, list/ranking, trade/rumor, or player-report structure.
+- Keep global Polymarket production rules active regardless of format.
+- When the user sends examples for a format, analyze one format at a time and update that format file with specific aesthetic notes.
+- Do not blend multiple format presets unless the user asks for a hybrid.
+
 ## Production Rules
 
 - Build 4:5 Instagram carousel graphics only.

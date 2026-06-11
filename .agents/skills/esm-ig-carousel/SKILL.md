@@ -19,19 +19,22 @@ description: >-
 - If the user provided final stats/copy, do not re-verify them. Build from the supplied brief.
 - If the user asks for research or gives only a player/topic, verify current sports context before writing.
 - If the user provides images, preserve the exact order unless they explicitly ask to reorder.
-- If rendering a Polymarket carousel, read `references/polymarket-carousel-workflow.md` before building.
+- If rendering a Polymarket carousel, read `references/polymarket-carousel-workflow.md` and route the brief through `references/carousel-formats/README.md` before building.
+- If the user sends example slides for a carousel type, analyze one format at a time and update the matching `references/carousel-formats/*.md` file with aesthetic notes.
 
 ## Polymarket Baseball Render Workflow
 
 1. Parse team, team colors, post folder, cover text, slide copy, bottom stats, meme captions, and local image paths.
-2. Use the first supplied image as the cover image when the user labels it as cover or provides five images for a four-info-slide carousel.
-3. Use the remaining slide images in order for info slides.
-4. Build `01_cover.png` first.
-5. Build info slides with a tight white top copy block and image-dominant lower area.
-6. Add the required meme still slide unless explicitly waived.
-7. Export every slide as 1080x1350 PNG.
-8. Save into a dedicated post folder and mirror to `Documents` when running locally.
-9. Provide the folder link and a brief verification note.
+2. Identify the carousel format: analytical, meme-heavy, list/ranking, trade/rumor, player-report, or a user-requested hybrid.
+3. Read the matching format file under `references/carousel-formats/`.
+4. Use the first supplied image as the cover image when the user labels it as cover or provides five images for a four-info-slide carousel.
+5. Use the remaining slide images in order for info slides.
+6. Build `01_cover.png` first.
+7. Build info slides with a tight white top copy block and image-dominant lower area.
+8. Add the required meme still slide unless explicitly waived or the selected list format intentionally maps every supplied image to list slides.
+9. Export every slide as 1080x1350 PNG.
+10. Save into a dedicated post folder and mirror to `Documents` when running locally.
+11. Provide the folder link and a brief verification note.
 
 ## Writing-Only Workflow
 
@@ -66,6 +69,7 @@ Do not commit rendered media, downloaded images, private meme banks, paid asset 
 - Cover headline is readable, centered, and no more than two lines unless requested.
 - Cover gradient is deep enough to carry text but not so high that it muddies the player.
 - Info-slide gradients are softer than cover gradients.
+- Selected format preset was followed or the hybrid was clearly requested.
 - Meme slide uses a real still image.
 - Folder was mirrored to `Documents` when local rendering was requested.
 - No credentials, cookies, tokens, local memory, or generated cache files were added.
@@ -78,8 +82,10 @@ Do not commit rendered media, downloaded images, private meme banks, paid asset 
 ## References
 
 - `references/polymarket-carousel-workflow.md`
+- `references/carousel-formats/README.md`
 - `references/style-guide.md`
 - `references/output-rules.md`
 - `references/examples.md`
 - `templates/polymarket-carousel-brief.json`
+- `templates/carousel-formats/`
 - `templates/social-post-template.md`

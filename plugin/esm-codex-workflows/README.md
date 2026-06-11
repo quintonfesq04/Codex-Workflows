@@ -37,4 +37,13 @@ Then render with:
 python3 scripts/polymarket-carousel.py templates/polymarket-carousel-brief.json
 ```
 
+Carousel format presets live in:
+
+```text
+references/carousel-formats/
+templates/carousel-formats/
+```
+
+Use `Format: analytical`, `Format: meme-heavy`, `Format: list-ranking`, `Format: trade-rumor`, or `Format: player-report` in prompts when you want a specific carousel structure. When adding a new aesthetic, send examples for one format at a time and update the matching format reference with the approved layout notes.
+
 Private memory, browser sessions, paid services, logged-in accounts, API keys, and generated media do not transfer with this plugin.

@@ -1,0 +1,42 @@
+{
+  "format": "trade-rumor",
+  "post_folder": "Example Trade Rumor Carousel",
+  "team": "Marlins",
+  "team_colors": ["#00A3E0", "#EF3340", "#000000"],
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["SANDY", "TRADE BAIT!?"],
+    "gradient": "team-color",
+    "line_colors": ["#FFFFFF", "#FFFFFF"]
+  },
+  "slides": [
+    {
+      "role": "report-context",
+      "image": "/absolute/path/to/slide-1.jpg",
+      "copy": "What was reported or why the market is heating up.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "player-value",
+      "image": "/absolute/path/to/slide-2.jpg",
+      "copy": "Why the player still has value.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "complication",
+      "image": "/absolute/path/to/slide-3.jpg",
+      "copy": "Why the decision is messy.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "role": "market-verdict",
+      "image": "/absolute/path/to/slide-4.jpg",
+      "copy": "What the team has to decide.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "image": "/absolute/path/to/meme-still.png",
+    "caption": "Deadline reaction caption."
+  }
+}
