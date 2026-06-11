@@ -11,6 +11,7 @@ This repo packages Empire Sports Media-style workflows. Work as a practical prod
 - Do not include source names or links inside social copy unless attribution is required.
 - Never invent stats or ranks. State the source and filter used when reporting rankings.
 - For video workflows, enforce 16:9 output and a strict 45 second minimum and 3 minute maximum.
+- For Polymarket baseball carousel workflows, build 4:5 Instagram PNGs at 1080x1350, use supplied images in order, include a meme slide unless explicitly waived, and mirror the finished folder into Documents when running locally.
 - Use Baseball Savant for MLB clips whenever available. MLB.com highlight metadata is fallback only.
 - If a clip window is named in copy, clips must match that window.
 - For skeptical or debate-driven pitching narratives, use both highlights and lowlights when that better supports the story.
@@ -30,9 +31,8 @@ This repo packages Empire Sports Media-style workflows. Work as a practical prod
 
 - Prefer adding reusable instructions, references, and scripts over one-off local state.
 - Keep `.env.example` placeholder-only.
-- Do not commit media outputs from `out/`, `clips/`, `approved_clips/`, `wordpress-drafts/`, or carousel output folders.
+- Do not commit media outputs from `out/`, `outputs/`, `clips/`, `approved_clips/`, `wordpress-drafts/`, or carousel output folders.
 - Before committing, run:
   - `npm run safety:scan`
   - `git status --short`
   - inspect `.gitignore`
-

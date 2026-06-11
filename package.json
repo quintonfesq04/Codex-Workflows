@@ -7,6 +7,7 @@
     "mlb": "node scripts/mlb-compilation.mjs",
     "nfl": "node scripts/nfl-compilation.mjs",
     "nfl:vs": "node scripts/nfl-vs-compilation.mjs",
+    "carousel:polymarket": "python3 scripts/polymarket-carousel.py",
     "wp:check": "node scripts/wp-check.mjs",
     "wp:draft": "node scripts/wp-create-post.mjs",
     "safety:scan": "bash scripts/safety-scan.sh"

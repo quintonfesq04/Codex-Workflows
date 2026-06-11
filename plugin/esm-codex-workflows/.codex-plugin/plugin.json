@@ -1,7 +1,7 @@
 {
   "name": "esm-codex-workflows",
   "version": "0.1.0",
-  "description": "Reusable ESM sports-media Codex workflows for player compilations, IG carousels, Facebook discussion posts, news rewrites, and WordPress drafts.",
+  "description": "Reusable ESM sports-media Codex workflows for player compilations, Polymarket IG carousels, Facebook discussion posts, news rewrites, and WordPress drafts.",
   "author": {
     "name": "Local developer"
   },
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "ESM Codex Workflows",
     "shortDescription": "Run ESM-style sports content workflows from simple prompts.",
-    "longDescription": "Adds reusable Codex skills, references, templates, and scripts for ESM-style MLB/NFL player compilations, Instagram carousel planning, Facebook discussion posts, news rewrites, and WordPress draft workflows. Private credentials, logged-in sessions, paid services, and local memory are not included.",
+    "longDescription": "Adds reusable Codex skills, references, templates, and scripts for ESM-style MLB/NFL player compilations, Polymarket baseball Instagram carousel production, Facebook discussion posts, news rewrites, and WordPress draft workflows. Private credentials, logged-in sessions, paid services, and local memory are not included.",
     "developerName": "Empire Sports Media",
     "category": "Media",
     "capabilities": [],

@@ -1,0 +1,41 @@
+{
+  "post_folder": "Example Player Carousel",
+  "output_root": "polymarket-carousel-output",
+  "mirror_to_documents": true,
+  "team": "Giants",
+  "team_colors": ["#FD5A1E", "#27251F", "#FFFFFF"],
+  "assets": {
+    "logo": "/absolute/path/to/polymarket-logo.png",
+    "headline_font": "/absolute/path/to/condensed-sports-font.otf",
+    "body_font": "/absolute/path/to/body-bold-font.ttf",
+    "meme": "/absolute/path/to/meme-still.png"
+  },
+  "cover": {
+    "image": "/absolute/path/to/cover-image.jpg",
+    "text": ["FRANCHISE", "FACE?"],
+    "filename": "01_cover.png",
+    "focal": [0.5, 0.5],
+    "gradient": "black",
+    "gradient_scale": 0.75,
+    "logo_position": "left",
+    "line_colors": ["#FFFFFF", "#FD5A1E"]
+  },
+  "slides": [
+    {
+      "filename": "02_slide.png",
+      "image": "/absolute/path/to/slide-1.jpg",
+      "copy": "Slide copy goes here.",
+      "stat": "BOTTOM STAT"
+    },
+    {
+      "filename": "03_slide.png",
+      "image": "/absolute/path/to/slide-2.jpg",
+      "copy": "Slide copy goes here.",
+      "stat": "BOTTOM STAT"
+    }
+  ],
+  "meme": {
+    "filename": "99_meme.png",
+    "caption": "Meme caption goes here."
+  }
+}

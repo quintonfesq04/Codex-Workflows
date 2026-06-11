@@ -62,3 +62,29 @@ But the question is whether this group has enough swing-and-miss to survive a pl
 Which reliever do you trust most right now?
 ```
 
+## Polymarket Baseball Carousel Brief
+
+```text
+Team: Giants
+Team colors: #FD5A1E, #27251F, #FFFFFF
+Post folder: Bryce Eldridge Franchise Face
+Cover text:
+FRANCHISE
+FACE?
+
+Slide 1:
+Copy: Bryce Eldridge just gave Giants fans the kind of swing they'll be replaying for years.
+Bottom stat: Youngest walk-off grand slam ever
+
+Slide 2:
+Copy: The Giants are still 28-41, so let's not pretend one swing fixed the season.
+Bottom stat: .906 OPS | 4 HR
+
+Slide 3:
+Copy: Eldridge said he wants to be the face of the franchise, and honestly, good.
+Bottom stat: 17-game on-base streak
+
+Slide 4:
+Copy: The debate is fair: future superstar or one-week movie?
+Bottom stat: 9 2B | 14 BB | 24 K
+```
